@@ -1,8 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import PreviewCarousel from './components/PreviewCarousel';
+import SplineHero from './components/SplineHero';
+import Analytics from './components/Analytics';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,9 +9,8 @@ function App() {
     <div className="min-h-screen bg-white text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100">
       <Header />
       <main>
-        <Hero />
-        <Features />
-        <PreviewCarousel />
+        <SplineHero />
+        <Analytics />
       </main>
       <Footer />
     </div>
